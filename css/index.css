@@ -158,6 +158,10 @@ p {
   font-size: 1.6rem;
   line-height: 1.4;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 .container {
   max-width: 800px;
   width: 100%;
@@ -166,6 +170,11 @@ p {
 .whole-nav {
   background: #F6F6F6;
   margin: 2% 2% 0 2%;
+}
+@media (max-width: 500px) {
+  .whole-nav {
+    display: flex;
+  }
 }
 .whole-nav .container-nav {
   width: 100%;
