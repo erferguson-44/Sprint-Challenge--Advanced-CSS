@@ -200,8 +200,18 @@ img {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .mainIMG {
+    margin: 0 2%;
+  }
+}
 .mainIMG img {
-  border-radius: 10px;
+  border-radius: 8px;
+}
+@media (max-width: 500px) {
+  .mainIMG img {
+    border-radius: 3px;
+  }
 }
 footer {
   color: #22283B;

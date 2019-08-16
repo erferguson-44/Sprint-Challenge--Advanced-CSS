@@ -34,9 +34,16 @@
 
 .mainIMG{
     .displayFlex(center);
+    @media @phone{
+        margin:0 2%;
+    }
 
     img{
-        border-radius:10px;
+        border-radius:8px;
+
+        @media @phone{
+            border-radius:3px;
+        }
     }
 }
 
