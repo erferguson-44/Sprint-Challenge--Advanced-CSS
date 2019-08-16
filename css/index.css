@@ -177,9 +177,9 @@ p {
   padding-top: 1%;
 }
 .whole-nav .container-nav .bar-nav {
-  width: 50%;
   display: flex;
   justify-content: space-between;
+  width: 50%;
   padding: 1.5% 0;
 }
 .whole-nav .container-nav .bar-nav a {
