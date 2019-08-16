@@ -171,11 +171,6 @@ img {
   background: #F6F6F6;
   margin: 2% 2% 0 2%;
 }
-@media (max-width: 500px) {
-  .whole-nav {
-    display: flex;
-  }
-}
 .whole-nav .container-nav {
   width: 100%;
   display: flex;
@@ -190,6 +185,11 @@ img {
   justify-content: space-between;
   width: 50%;
   padding: 1.5% 0;
+}
+@media (max-width: 500px) {
+  .whole-nav .container-nav .bar-nav {
+    width: 80%;
+  }
 }
 .whole-nav .container-nav .bar-nav a {
   text-decoration: none;
